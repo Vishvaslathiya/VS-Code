@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMSMS</title>
+
+    <!-- CDN links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar Section -- Start -->
+    <header class="bg-primaryColor  fixed top-0 left-0 w-full z-50">
+        <nav class="container relative h-14 flex justify-between items-center">
+            <div>
+                <a class="text-2xl font-oswald uppercase" href="#">OMSMS</a>
+            </div>
+
+            <div class="absolute top-0 left-0 w-full py-14 bg-primaryColor border-b border-secondaryColor" id="navmenu">
+                <ul class="flex flex-col text-center gap-5">
+                    <li><a href="#home" class="hover:text-secondaryColor">Home</a></li>
+                    <li><a href="#product" class="hover:text-secondaryColor">Products</a></li>
+                    <li><a href="#about" class="hover:text-secondaryColor">About</a></li>
+                    <li><a href="#contact" class="hover:text-secondaryColor">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer" id="nav-close">
+                <i class="ri-close-line"></i>
+            </div>
+
+            <div class="flex items-center gap-5">
+                <i class="ri-moon-line cursor-pointer ml-5 text-xl"></i>
+
+                <div id="hamburger">
+                    <i class="ri-menu-2-line  cursor-pointer text-xl"></i>
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+    <!-- Navbar Section -- End -->
+
+    <!-- Hero Section -- Start -->
+
+    <section id="home">
+        <div class="container flex flex-col items-center gap-10 md:flex-row">
+            <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
+                <img src="../assets/images/12-Pro.png" alt="Home Page Image" class="w-60 ">
+            </div>
+
+            <div class="text-center md:basis-1/2 md:text-start lg:basis-3/5">
+                <h1 class="home__title ">HAPPY SHOPPING WITH GREAT DEALS!</h1>
+                <div class="seperatormx-auto md:mx-0"></div>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero officiis hic porro dolor eius dolorum
+                    omnis! Ipsum, corrupti provident. Totam minus repellat tempore vel eaque est recusandae alias, autem
+                    unde!</p>
+                <!-- <h1 class="home__title text-xl font-oswald font-bold uppercase lg: text-6xl">HAPPY SHOPPING WITH GREAT DEALS!</h1>
+                <div class="seperator w-28 h-[2px] bg-secondaryColor my-5 mx-auto"></div>
+                <p class="paragraph text-paragraphColor text-xs leading-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero officiis hic porro dolor eius dolorum
+                    omnis! Ipsum, corrupti provident. Totam minus repellat tempore vel eaque est recusandae alias, autem
+                    unde!</p> -->
+
+                <div class="text-base flex items-center justify-center gap-4 py-10  md:justify-start md:gap-20 ">
+                    <div class="text-center">
+                        <i class="fa-solid fa-truck-fast text-secondaryColor text-4xl"></i>
+                        <br>
+                        Delivery
+                    </div>
+                </div>
+
+                <div>
+                    <div class="text-center">
+                        <i class="fa-solid fa-cart-shopping text-secondaryColor text-4xl"></i>
+                        <br>
+                        Shopping
+                    </div>
+                </div>
+
+                <div>
+                    <div class="text-center">
+                        <i class="fa-brands fa-shopify text-secondaryColor text-4xl"></i>
+                        <br>
+                        Best Deals
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Navbar Section -- END -->
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
